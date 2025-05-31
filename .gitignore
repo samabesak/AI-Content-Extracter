@@ -1,0 +1,25 @@
+# Ignore node modules
+node_modules/
+ai/node_modules/
+api/node_modules/
+
+# Ignore environment variables
+.env
+ai/.env
+api/.env
+
+# Ignore build outputs
+build/
+ai/build/
+dist/
+ai/dist/
+
+# Ignore log files
+*.log
+
+# Ignore Vercel-specific generated files
+.vercel/
+vercel.json
+
+# MacOS system files
+.DS_Store
